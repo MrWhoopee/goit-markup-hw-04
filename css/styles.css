@@ -356,14 +356,8 @@ address {
   fill: var(--cloud);
 }
 
-.social-team-icon-link:hover {
-  background-color: var(--ocean);
-}
-
-.social-team-icon-link:focus {
-  background-color: var(--ocean);
-}
-
+.social-team-icon-link:hover,
+.social-team-icon-link:focus,
 .social-team-icon-link:active {
   background-color: var(--ocean);
 }
@@ -516,14 +510,8 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-footer-icon-link:hover {
-  background-color: var(--green);
-}
-
-.social-footer-icon-link:focus {
-  background-color: var(--green);
-}
-
+.social-footer-icon-link:hover,
+.social-footer-icon-link:focus,
 .social-footer-icon-link:active {
   background-color: var(--green);
 }
